@@ -5,7 +5,7 @@ A command-line tool that scrapes and downloads all photos and videos from a
 wall commonly used at weddings and parties.
 
 Kululu sometimes doesn't provide a built-in "download all" option (depending 
-on the permissions given by the creator of the album), so this tool drives
+on options selected by the album creator), so this tool drives
 a real browser (via [Playwright](https://playwright.dev/python/)) to open
 every photo and video in the album, read out its full-quality URL, and save
 each file to your computer.
